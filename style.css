@@ -1,0 +1,139 @@
+#hero {
+    background-size: cover;
+}
+.hero-img {
+    background: url(./images/defaultBcg.jpeg) no-repeat 50%;
+    height: calc(100vh - 66px);
+}
+.hero-img-room {
+    background: url(./images/room-1.jpeg) no-repeat 50%;
+    height: 450px;
+}
+.details-hero {
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.banner{
+    background: rgba(0, 0, 0, .5);
+    min-height: 200px;
+}
+
+.banner h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.banner hr {
+    border-top: 5px solid #53a8e9;
+    opacity: 1;
+}
+.banner p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.my-btn {
+    background-color: #53a8e9 !important;
+    cursor: pointer;
+    border-radius: 0 !important;
+    border: none;
+    color: black;
+    opacity: 100%;
+    text-align: center;
+    padding: 5px 5px;
+    text-transform: uppercase;
+    transition: 1s;
+}
+.my-btn:hover{
+    background-color: transparent !important;
+    border: 3px solid #53a8e9;
+    color: #53a8e9 !important;
+}
+
+.title {
+    margin-bottom: 50px;
+}
+.title h1 {
+    text-transform: capitalize;
+}
+.title hr {
+    margin: 0 auto;
+    border-top: 5px solid #53a8e9;
+    width: 80px;
+    opacity: 1;
+}
+
+#services-section{
+    padding: 50px 0;
+    background: #CFCFCF;
+}
+
+.services span{
+    font-size: 40px;
+    color: #53a8e9;
+    margin-bottom: 20px;
+}
+
+#featured-room {
+    padding: 50px 0;
+}
+
+.image-container{
+    position: relative;
+}
+.price-top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .7);
+    color: #ffffff;
+    text-align: center;
+    padding: 8px 10px 0 10px;
+    border-bottom-right-radius: 25%;
+}
+.room-info{
+    background: #CFCFCF;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 7px;
+    font-weight: 700;
+    font-size: large;
+    letter-spacing: 3px;
+}
+
+.overlay{
+    position: relative;
+}
+.overlay-button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .5);
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+.overlay:hover .overlay-button{
+    display: flex;
+    align-items: center;
+}
+.overlay:hover .price-top{
+    display: none;
+}
+.overlay:hover .room{
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+
+.footer {
+    padding: 10px 0;
+    background: #53a8e9;
+    color: #ffffff;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.text-capitalize{
+    letter-spacing: 4px;
+}
